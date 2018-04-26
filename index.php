@@ -14,8 +14,6 @@
             $('body').addClass('loaded');
           }, 1000);
 
-
-
       });
 
     </script>
@@ -63,7 +61,7 @@
         <p>IT-support's samling av verktøy.</p>
       <br><br>
 
-      
+
       <p>
         <a class="btn btn-lg btn-primary" href="https://itsupport.elkem.com/secure/Dashboard.jspa"target="_blank" role="button">Til Elkem Servicedesk support &raquo;</a>
       </p><br>
