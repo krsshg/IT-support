@@ -12,7 +12,7 @@ ldap_set_option($ldap_connection, LDAP_OPT_REFERRALS, 0); // We need this for do
 //$myusername = $_SESSION["ADusernameFull"];
 $myusername = "admkrsomp@elkem.com";
 //$mypassword = $_SESSION["ADpassword"];
-$mypassword = "Portugal2019.";
+$mypassword = "";
 function loginError($errno, $errstr){
   echo "<b> Error: </b> [$errno] $errstr<br>";
 }

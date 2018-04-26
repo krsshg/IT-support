@@ -8,7 +8,6 @@ if (isset($_POST['sponsor']) && $_POST['company'] && $_POST['mailadr'] && $_POST
 }
 else{
   echo "OBS ! Feltene mangler data. Sponsor - Company - Mailadr - Tlf ";
-
 }
 
 ?>
