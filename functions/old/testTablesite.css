@@ -1,0 +1,182 @@
+
+<style>
+
+/* Formatering for formet som rTableECHO printes i */
+form {
+  background-color: #e6e6e6;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+/* Formatering for pcinne.php tabellen */
+.rTable {
+  	display: table;
+  	width: 80%;
+    font-size: 18px;
+}
+.rTableRow {
+  display: table-row;
+}
+
+.rTableCell{
+  display: table-cell;
+  padding: 3px 10px;
+  cursor: pointer;
+  border: none;
+}
+.rTableHead{
+      border: none;
+      font-size: 25px;
+      padding-bottom: 20px;
+}
+.rTableHeading {
+  display: table-header-group;
+  background-color: #fff;
+  font-weight: bold;
+}
+.rTableFoot {
+  display: table-footer-group;
+  font-weight: bold;
+  background-color: #ddd;
+}
+.rTableBody {
+  display: table-row-group;
+}
+
+
+/* Formatering for pcute.php tabellen */
+.rTableinn {
+  	display: table;
+  	width: 80%;
+    font-size: 18px;
+  }
+.rTableCellinn{
+      display: table-cell;
+      padding: 3px 10px;
+      cursor: pointer;
+    }
+.rTableRowUTinn {
+      display: table-row;
+    }
+.rTableRowinn {
+          display: table-row;
+    }
+.rTableHeadinn{
+      border: none;
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+.rTableBodyinn {
+      display: table-row-group;
+    }
+
+/* Formatering for pcUt.php tabellen */
+
+.rTableUT {
+  	display: table;
+  	width: 80%;
+    font-size: 18px;
+}
+.rTableRowUT {
+  display: table-row;
+}
+.rTableCellUT{
+
+  display: table-cell;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.rTableCellUT, .rTableHeadUT {
+  	display: table-cell;
+  	padding: 3px 10px;
+}
+.rTableHeadUT{
+      border: none;
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+
+.rTableBodyUT {
+  display: table-row-group;
+}
+
+/* Formatering for tabellene som returneres i createSubMenuUt.php, createSubMenuUte.php
+og createSubMenu.php */
+
+.rTableECHO {
+  display: table;
+  width: 30%;
+  font-size: 16px;
+}
+.rTableRowECHO {
+  display: table-row;
+}
+.rTableCellECHO, .rTableHeadECHO {
+  display: table-cell;
+  margin-left: 150px;
+  padding-top: 5px;
+}
+.rTableHeadingECHO {
+  display: table-header-group;
+  background-color: #e6e6e6;
+  font-weight: bold;
+  display: inline-block;
+  width: 130px;
+  text-align: left;
+}
+.rTableFootECHO {
+  display: table-footer-group;
+  font-weight: bold;
+  background-color: #ddd;
+}
+.rTableBodyECHO {
+  display: table-row-group;
+}
+
+/* Brukes i pcinne.php */
+#popup{
+  display: none;
+  font-weight: bold;
+  padding: 3px 10px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+/* Brukes i pcUT.php */
+#popup2{
+  display: none;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  padding: 3px 10px;
+}
+
+#popupECHO{
+  display: none;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  padding: 3px 10px;
+}
+
+#kunLese{
+  background-color: #e6e6e6;
+  border: none;
+}
+#returButton{
+  background-color: #cce0ff;
+}
+#searchBox{
+  font-size: 18px;
+}
+#nostretch{
+  width: 230px;
+  table-layout: fixed;
+  display: inline-block;
+}
+.highlight { background-color: #cce0ff; }
+
+</style>

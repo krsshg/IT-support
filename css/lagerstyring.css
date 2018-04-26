@@ -1,0 +1,257 @@
+.LagerInn button {
+
+  width: 170px;
+  justify-content: flex-end;
+  font-size: 40px;
+}
+
+.LagerInn select {
+  width: 210px;
+  font-size: 30px;
+}
+
+.ITSDropdown {
+  float: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#number{
+    width: 79px;
+}
+
+.antall-ok {
+    float: right;
+    width: 33.33%;
+    padding: 15px;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: right;
+  }
+
+  @media (max-width:600px) {
+    .antall-ok {
+        width: 100%;
+      }
+    }
+.row2 #submit {
+  margin-bottom: 140px;
+  margin-top: -6cm;
+}
+
+#avdelingLager {
+  margin-right: 15px;
+}
+/*formatering for knappene på lagerstyringMeny.php*/
+#vareInnID{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+#vareUtID{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+#nyVareID{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+#lagerstyringBtn{
+  font-family: "Arial", Helvetica, sans-serif;
+  background-color: #3b8ec2;
+  border: 2px solid #3b8ec2;
+  color: #fff;
+  padding-bottom:10px;
+  padding-top:10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s;
+  align-content: center;
+  }
+/*tabellen fra vareInn.php*/
+.vareInn{
+  padding:30px;
+}
+
+.vareInnTable{
+  width: 100%;
+  display:table;
+}
+.vareInnTableRow{
+  display: table-row;
+  margin:auto;
+}
+.vareInnTableCell{
+  display: table-cell;
+  padding: 5px;
+}
+.vareInnTableCell select{
+  width: 250px;
+  height: 30px;
+}
+.vareInnTableCell input[type=number]{
+  width: 80px;
+  height: 30px;
+  padding: 6px 10px;
+}
+.vareInnTableCell input[type=submit]{
+  background-color: #cce0ff;
+  width: 80px;
+}
+.vareInnTableCell textarea{
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+/*tabellen fra vareUt.php*/
+.vareUt{
+  padding:30px;
+}
+.vedlVareliste{
+  padding:30px;
+}
+
+/* Undermenyer Vedlikeholde vareliste*/
+
+/*Legge til nytt produkt*/
+.nyPC{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    color:inherit;
+    background-color: #eee;
+
+  }
+
+  #nyPC{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+  }
+
+  #nyPC td, #nyPC th {
+    border: 1px solid #000aaa;
+    padding: 4px;
+  }
+
+  #nyPC tr:nth-child(even){background-color: #f2f2f2;}
+
+  #nyPC tr:hover {background-color: #ddd;}
+
+  #nyPC th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1c568f;
+    color: #fff;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+  }
+  #nyPCbtn {
+
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: #3b8ec2;
+    border: 2px solid #3b8ec2;
+    color: #fff;
+    padding-bottom:10px;
+    padding-top:10px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  #nyPCbtn:hover {
+    background-color: #3b8ec2;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  /*Vis alt på lager*/
+  .altLager{
+      padding-top: 10px;
+      padding-bottom: 15px;
+      position: relative;
+      color:inherit;
+      background-color: #eee;
+
+    }
+
+    #altLager{
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+    }
+
+    #visAltLagerbtn {
+
+      font-family: "Arial", Helvetica, sans-serif;
+      background-color: #3b8ec2;
+      border: 2px solid #3b8ec2;
+      color: #fff;
+      padding-bottom:10px;
+      padding-top:10px;
+      cursor: pointer;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    #visAltLagerbtn:hover {
+      background-color: #3b8ec2;
+      color: white;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+/*Formatering for "Vis alt på lager"-tabellen*/
+
+/* Formatering for pcinne.php tabellen */
+.vaTable {
+  	display: table;
+    width: 100%;
+    height: 100%;
+}
+.vaTableRow {
+  display: table-row;
+  vertical-align: middle;
+  width: 70%;
+}
+.vaTableCell{
+  display: table-cell;
+  padding: 3px 10px;
+  cursor: pointer;
+  border: none;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vaTableHead{
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  font-size:18px;
+  padding-bottom: 20px;
+}
+.vaTableHeading {
+  display: table-header-group;
+  background-color: #fff;
+  font-weight: bold;
+}
+.vaTableFoot {
+  display: table-footer-group;
+  font-weight: bold;
+  background-color: #ddd;
+}
+.vaTableBody {
+  display: table-row-group;
+}

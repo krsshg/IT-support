@@ -1,0 +1,11 @@
+{
+  "instance": {
+    "url": "http://itsupport.elkem.com",
+    "username": "krsomp",
+    "password": "your-password"
+  },
+  "serviceDesk": {
+    "id": "x",
+    "requestTypeId": "y"
+  }
+}

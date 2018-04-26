@@ -1,0 +1,147 @@
+hr{
+  border: 1px solid #000aaa;
+
+}
+#title{
+  text-align: center;
+}
+
+#utlan{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+/* Brukes i pcute.php */
+#demo2{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+/*Brukes i pcinne.php */
+#utstyr{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+#utstyr td, #utstyr th {
+  border: 1px solid #000aaa;
+  padding: 4px;
+}
+
+#utstyr tr:nth-child(even){background-color: #f2f2f2;}
+
+#utstyr tr:hover {background-color: #ddd;}
+
+#utstyr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1c568f;
+  color: #fff;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+#utstyr table {
+  margin-left:250px;
+}
+
+.tilgjengeligPC{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  position: relative;
+  color:inherit;
+  background-color: #eee;
+}
+
+/* Setter width og align center på alle knapper på utlaan.php*/
+.utlaanButtonsAlignCenter {
+    text-align: center;
+}
+.utlaanButtonsAlignCenter button{
+    text-align: center;
+    width: 230px;
+}
+#status {
+  font-family: "Arial", Helvetica, sans-serif;
+  background-color: #3b8ec2;
+  border: 2px solid #3b8ec2;
+  color: #fff;
+  padding-bottom:10px;
+  padding-top:10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s;
+  align-content: center;
+  }
+#status:hover {
+  background-color: #3b8ec2;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#lagerstyringBtn:hover {
+  background-color: #3b8ec2;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#registrerlån {
+font-family: "Arial", Helvetica, sans-serif;
+margin-left: 355px;
+background-color: #3b8ec2;
+border: 2px solid #3b8ec2;
+color: #fff;
+padding-bottom:10px;
+padding-top:10px;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+transition: 0.4s;
+padding-right:100px;
+align-content: center;
+
+}
+#registrerlån:hover{
+  background-color: #3b8ec2;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*'Registrer retur' knapp på utlaan.php */
+#registrerlevering {
+font-family: "Arial", Helvetica, sans-serif;
+background-color: #3b8ec2;
+border: 2px solid #3b8ec2;
+color: #fff;
+padding-bottom:10px;
+padding-top:10px;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+transition: 0.4s;
+align-content: center;
+}
+#registrerlevering:hover{
+  background-color: #3b8ec2;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.DropdownLevering table{
+  margin-left: 140px;
+  margin-top:10px;
+}
+#demo1  {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+button {
+  width: 20px;
+}
+h1 {
+  margin-top: 0px;
+}

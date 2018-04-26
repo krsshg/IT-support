@@ -1,0 +1,3 @@
+curl --user email@example.com:<api_token> \
+  --header 'Accept: application/json' \
+  --url 'https://itsupport.elkem.com/rest/servicedeskapi/info'

@@ -1,0 +1,28 @@
+public string CreateIssue(string strIssueType, string strLocation, string strReporter, string strSummary, string strDescription, (string JiraUserID, string JiraPassword) uPw)
+{
+    string strJson = string.Empty;
+    try
+    {
+        WebClient client = new WebClient();
+        client.Headers[HttpRequestHeader.ContentType] = "application/json";
+        client.Encoding = Encoding.UTF8;
+        client.Headers[HttpRequestHeader.Authorization] = "Basic " + this.GetEncodedCredentials(uPw);
+        string jsonProject = @"""projectstring.Empty       :{""key"":""" + this.jiraProject + @"""}";
+        string jsonSummary = @"""summary""       :""" + this.CleanForJSON(strSummary) + @"""";
+        string jsonDescription = @"""description""   :""" + this.CleanForJSON(strDescription) + @"""";
+        string jsonReporter = @"""reporter""      :{""name"":""" + strReporter + @"""}";
+        string jsonIssuetype = @"""issuetype""     :{""id"":""" + this.IssueTypeID(strIssueType) + @"""}";
+        string jsonComponents = @"""components""    :[{""id"":""" + this.LocationID(strLocation) + @"""}]";
+
+        strJson = @"{""fields"":{" + jsonProject + "," + jsonSummary + "," + jsonDescription + "," + jsonReporter + "," + jsonIssuetype + "," + jsonComponents + "}}";
+        string str = client.UploadString(new Uri(this.jiraRestURL + "issue"), "POST", strJson);
+
+        dynamic obj = JsonConvert.DeserializeObject(str);
+        string newIssueKey = obj.key;
+        return newIssueKey;
+    }
+    catch (Exception ex)
+    {
+        throw ex;
+    }
+}
